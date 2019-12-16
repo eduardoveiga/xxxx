@@ -1,0 +1,19 @@
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\CL.exe /c /IC
+  :\Users\User\Source\Repos\libsatelgin\build /IC:\Users\User\Source\Repos\libsatelgin /IC:\Users\User\Source\Repos\lib
+  satelgin\include /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /
+  D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAK
+  E_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"testel
+  ib.dir\Debug\\" /Fd"testelib.dir\Debug\vc142.pdb" /Gd /TP /wd4018 /wd4244 /wd4305 /wd4200 /errorReport:queue C:\Users
+  \User\Source\Repos\libsatelgin\lib\examples\testelib.cpp
+  testelib.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERR
+  ORREPORT:QUEUE /OUT:"C:\Users\User\Source\Repos\libsatelgin\build\Debug\testelib.exe" /INCREMENTAL /NOLOGO Debug\sate
+  lgin.lib "C:\Users\User\vcpkg\installed\x64-windows\lib\libusb-1.0.lib" "C:\Users\User\vcpkg\installed\x64-windows\de
+  bug\lib\zlibd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg3
+  2.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/
+  User/Source/Repos/libsatelgin/build/Debug/testelib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C
+  :/Users/User/Source/Repos/libsatelgin/build/Debug/testelib.lib" /MACHINE:X64  /machine:x64 testelib.dir\Debug\testeli
+  b.obj
+  testelib.vcxproj -> C:\Users\User\Source\Repos\libsatelgin\build\Debug\testelib.exe
